@@ -19,9 +19,6 @@ if __name__ == "__main__":
     # Set your experiment name
     EXPERIMENT_NAME = "getaround Pricing v5"
 
-    # Set tracking URI to your Heroku application
-    mlflow.set_tracking_uri("https://my-getaround-mlflow-rodelin-610c1fba4675.herokuapp.com/")
-
     # Set experiment's info 
     mlflow.set_experiment(EXPERIMENT_NAME)
 
